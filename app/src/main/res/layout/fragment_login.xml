@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout4"
     android:background="@color/back"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".LoginFragment">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -69,17 +69,18 @@
         app:layout_constraintTop_toBottomOf="@+id/et_psw">
 
         <Button
-            android:id="@+id/btn_registrar"
+            android:id="@+id/btn_restablecer_psw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@android:color/holo_orange_light"
             android:foregroundGravity="center"
-            android:text="@string/registrar"
+            android:text="Login"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
     </FrameLayout>
+
 
     <FrameLayout
         android:id="@+id/frameLayout3"
@@ -110,16 +111,18 @@
         app:layout_constraintTop_toBottomOf="@+id/frameLayout3">
 
         <Button
-            android:id="@+id/btn_restablecer_psw"
+            android:id="@+id/btn_registrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@android:color/transparent"
             android:foregroundGravity="center"
-            android:text="@string/estas_registrado_inicia_sesion"
+            android:text="¿No tienes una cuenta? Registrate ahora"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
     </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="icono">icono de firebase</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="registrar">Registrar</string>
+    <string name="estas_registrado_inicia_sesion">Estas Registrado. Inicia Sesion</string>
+    <string name="olvidaste_la_contrase_a">¡Olvidaste la contraseña?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="olvidaste_tu_psw">¿Olvidaste tu contraseña?</string>
+    <string name="reestablecer_contraseña">Necesitamos que registres tu email para enviarte las instrucciones para reestablecer tu contraseña</string>
+    <string name="login">Login</string>
+    <string name="registrate_ahora">¿No tienes una cuenta? Registrate ahora</string>
+    <string name="restablecer_contrase_a">Restablecer contraseña</string>
+    <string name="back"><![CDATA[<<Back]]></string>
+    <string name="opcion">Opcion</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="cambiar_email">Cambiar Email</string>
+    <string name="cambiar_password">Cambiar Password</string>
+    <string name="reset_email">Reset Email</string>
+    <string name="eliminar_usuario">Eliminar Usuario</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
 </resources>

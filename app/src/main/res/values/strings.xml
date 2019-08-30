@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">App Autentificacion Firebase</string>
     <string name="icono">icono de firebase</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
